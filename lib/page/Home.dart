@@ -80,19 +80,11 @@ String? nname;
       //   title: Text('${widget.nname}'),
       // ),
      
-        // backgroundColor: 
-        // gradientEndColor
-        // ,
         body: Container(
           decoration: BoxDecoration(
             image: DecorationImage(image: AssetImage('assets/universe.jpg', ),fit: BoxFit.cover)
             ),
-          // decoration: BoxDecoration(
-          //     gradient: LinearGradient(
-          //         colors: [ gradientEndColor],
-          //         begin: Alignment.topCenter,
-          //         end: Alignment.bottomCenter,
-          //         stops: const [0.1, 0.9])),
+          
           child: SafeArea(
             
               child: Column(
@@ -111,7 +103,7 @@ String? nname;
             //       color: titleTextColor,
             //       fontSize: 40,
             //       fontWeight: FontWeight.w900,
-            //       fontFamily: 'Avenir'),
+            //       
             //   textAlign: TextAlign.left,
             // ),
          //   SizedBox(width: 20,),
@@ -152,21 +144,13 @@ String? nname;
                 )
               ],
             ),
-            // SizedBox(
-            //   width: 40,
-            //   child: Icon(
-            //     Ionicons.planet,
-            //     color: secondaryTextColor,
-            //   ),
-            // )
+            
           ],
         )
       ]),
     ),
              
-              // const HeaderWidget(
-
-              // ),
+             
               InkWell(
                 child: SizedBox(
                   height: MediaQuery.of(context).size.height*0.7,
@@ -298,23 +282,6 @@ String? nname;
                                       ))
                           );
                           }
-
-
-
-
-
-                          // })
-                          // Navigator.push(
-                          //     context,
-                          //     PageRouteBuilder(
-                          //         pageBuilder: (context, animation,
-                          //                 secondaryAnimation) =>
-                          //             DetailsPage(
-                          //                 planetInfo:  
-                          //                 planetInfo[index] 
-                          //                 ) 
-                          //                 )
-                          // );
                         },
                         child: Stack(
                           children: [
