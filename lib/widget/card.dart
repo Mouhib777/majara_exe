@@ -25,7 +25,6 @@ class CustomCard extends StatelessWidget {
                 style: TextStyle(
                     color: primaryTextColor,
                     fontWeight: FontWeight.w900,
-                    fontFamily: 'Avenir',
                     fontSize: 50),
                 textAlign: TextAlign.left,
               ),
@@ -34,7 +33,6 @@ class CustomCard extends StatelessWidget {
                 style: TextStyle(
                     color: primaryTextColor,
                     fontWeight: FontWeight.w400,
-                    fontFamily: 'Avenir',
                     fontSize: 28),
                 textAlign: TextAlign.left,
               ),
