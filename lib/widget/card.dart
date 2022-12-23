@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:ionicons/ionicons.dart';
 import 'package:ieee/constant/constant.dart';
 
 class CustomCard extends StatelessWidget {
@@ -50,7 +49,6 @@ class CustomCard extends StatelessWidget {
                     style: TextStyle(
                         color: secondaryTextColor,
                         fontWeight: FontWeight.w600,
-                        fontFamily: 'Avenir',
                         fontSize: 20),
                     textAlign: TextAlign.left,
                   ),
