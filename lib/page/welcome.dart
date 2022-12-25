@@ -64,7 +64,7 @@ class _welcomeState extends State<welcome> {
                   ),
                   validator: (value){
                    if (value == null || value.isEmpty) {
-                  return '7ot nayek ismek';
+                  return '7ot ismek';
                   }else{
                     setState(() {
                       name = value ; 
