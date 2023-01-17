@@ -25,10 +25,7 @@ class _earthState extends State<earth> {
             ),
       child: Scaffold(  
         backgroundColor: Colors.transparent,
-        // appBar: AppBar(
-        //   title: Text('Mercury'),
-        //   centerTitle: true,
-        // ),    
+         
         body: SafeArea(
           
           bottom: false,
