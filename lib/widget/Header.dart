@@ -7,9 +7,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return 
-    // Container(
-    //   child: Image.asset('assets/universe.png'),
-    // );
+ 
      Scaffold(
         backgroundColor: gradientEndColor,
         body: Container(
